@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Earphone</title>
+</head>
+<body>
+    <button class="dark" onclick="ColorToggle()"><i class="fa-sharp fa-solid fa-moon"></i> </button>
+    <section class="landing">
+        
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="img/earphone_service_customer_icon_228216.png" alt="logo">
+                    <p>Sound <span>Box</span></p>
+                </div>
+                
+                <div class="links" id="links">
+                    <a href="#" class="clos" onclick="clossenav()"><i class="fa-sharp fa-solid fa-xmark"></i></a>
+                    <a href="#">Overview</a>
+                    <a href="#">Teach Specs</a>
+                    <a href="#">Reviews</a>
+                    <a href="#">Contact Us</a>
+                </div> 
+
+                <div class="icons">
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    <i class="fa-sharp fa-solid fa-bars" onclick="opennav()"></i>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="earphones">
+                    <div class="img" >
+                        <img onclick="earphones(this.src)" src="img/product1.png" alt="">
+                    </div>
+                    <div class="img" onclick="toggleSwitch()">
+                        <img onclick="earphones(this.src)" src="img/product2.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img onclick="earphones(this.src)" src="img/product3.png" alt="">
+                    </div>
+                </div>
+                <div class="big-img" >
+                    <img id="kkk" src="img/product1.png" alt="">
+                </div>
+                <div class="text">
+                    <h1>wireless <br>
+                        Headphones
+                    </h1>
+                    <h6>The smarter way to listen</h6>
+                    <h4>$178.99</h4>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="min.js"></script>
+</body>
+</html>
